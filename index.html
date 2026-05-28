@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de medidas</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Conversor de Medidas</h1>
+</header>
+
+<main>
+<p class="intro">Nesse site você conseguirá comparar e converter diversos tipos de medidas.</p>
+<p class="intro">💡 Escolha o tipo de propriedade que quer verificar, escolha a unidade de entrada, insira a quantidade e escolha a saída desejada.</p>
+
+<div class="botoesCima">
+<button class="comprimento">Comprimento</button>
+<button class="peso">Peso/Massa</button>
+<button class="volume">Volume</button>
+<button class="temperatura">Temperatura</button>
+<button class="tempo">Tempo</button>
+</div>
+
+<p class="moldura"></p>
+
+
+<div class="container aba-ativa"> 
+    <p class="introContainer">Escolha a propriedade que deseja verificar clicando em um dos botões acima</p>
+</div>
+
+<div class="DivComprimento"> 
+<input type="number" placeholder="Digite a quantidade" class="numero">
+<select class="entrada">
+    <option selected disabled>Escolha a entrada</option>
+    <option>Milímetros (mm)</option>
+    <option>Centímetros (cm)</option>
+    <option>Metros (m)</option>
+    <option>Quilômetros (km)</option>
+    <option>Polegadas (in)</option>
+    <option>Pés (ft)</option>
+</select>
+<p>para</p>
+<select class="saida">
+    <option selected disabled>Escolha a saída</option>
+    <option>Milímetros (mm)</option>
+    <option>Centímetros (cm)</option>
+    <option>Metros (m)</option>
+    <option>Quilômetros (km)</option>
+    <option>Polegadas (in)</option>
+    <option>Pés (ft)</option>
+</select>
+</div>
+
+<div class="DivPeso">
+<input type="number" placeholder="Digite a quantidade" class="numero">
+<select class="entrada">
+    <option selected disabled>Escolha a entrada</option>
+    <option>Miligramas (mg)</option>
+    <option>Gramas (g)</option>
+    <option>Quilos (kg)</option>
+    <option>Toneladas (t)</option>
+    <option>Libras (lb)</option>
+</select>
+<p>para</p>
+<select class="saida">
+    <option selected disabled>Escolha a saída</option>
+    <option>Miligramas (mg)</option>
+    <option>Gramas (g)</option>
+    <option>Quilos (kg)</option>
+    <option>Toneladas (t)</option>
+    <option>Libras (lb)</option>
+</select>
+</div>
+
+<div class="DivVolume">
+<input type="number" placeholder="Digite a quantidade" class="numero">
+<select class="entrada">
+    <option selected disabled>Escolha a entrada</option>
+    <option>Mililitros (ml)</option>
+    <option>Litros (l)</option>
+</select>
+<p>para</p>
+<select class="saida">
+    <option selected disabled>Escolha a saída</option>
+    <option>Mililitros (ml)</option>
+    <option>Litros (l)</option>
+</select>
+</div>
+
+<div class="DivTemperatura">
+<input type="number" placeholder="Digite a quantidade" class="numero">
+<select class="entrada">
+    <option selected disabled>Escolha a entrada</option>
+    <option>Celsius (ºC)</option>
+    <option>Fahrenheit (ºF)</option>
+    <option>Kelvin (K)</option>
+</select>
+<p>para</p>
+<select class="saida">
+    <option selected disabled>Escolha a saída</option>
+    <option>Celsius (ºC)</option>
+    <option>Fahrenheit (ºF)</option>
+    <option>Kelvin (K)</option>
+</select>
+</div>
+
+<div class="DivTempo">
+<input type="number" placeholder="Digite a quantidade" class="numero">
+<select class="entrada">
+    <option selected disabled>Escolha a entrada</option>
+    <option>Segundos (s)</option>
+    <option>Minutos (min)</option>
+    <option>Horas (h)</option>
+    <option>Dias</option>
+</select>
+<p>para</p>
+<select class="saida">
+    <option selected disabled>Escolha a saída</option>
+    <option>Segundos (s)</option>
+    <option>Minutos (min)</option>
+    <option>Horas (h)</option>
+    <option>Dias</option>
+</select>
+</div>
+
+<p class="moldura2"></p>
+
+<button class="botao">Converter</button>
+
+<p class="resultado">Sua resposta aparecerá aqui!</p>
+
+</main>
+
+<footer>
+    <h3>Site desenvolvido por Matheus Barboza.</h3>
+    <p class="mini">Cursando Bacharelado em Tecnologia da Informação na Universidade Virtual do Estado de São Paulo.
+    <br> Esse projeto foi desenvolvido utilizando HTML, CSS e Javascript, no qual toda a documentação pode ser encontrada <a href="https://github.com/barbozamatheus/Site-Conversor-de-medidas" target="_blank">nesse link</a>.</p>
+    <p class="contato">Contato e projetos: <a href="https://www.linkedin.com/in/matheus-barboza7/" target="_blank">Linkedin</a> <a href="https://github.com/barbozamatheus" target="_blank">Github</a></p>
+</footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    color:#F8FAFC;
+}
+
+div{
+    display: flex; /*torna possível toda a organização dos elementos filhos*/
+}
+
+body{
+    background: #0F172A;
+}
+
+select{
+    background: #243353;
+    border-radius: 5px;
+    width: 200px;
+    height:auto;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    background: #243353;
+    font-size: 40px;
+}
+
+.intro{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.introContainer{
+    text-align: center;
+    font-size: 20px;
+}
+
+.botoesCima{
+    justify-content: space-between; /*garante que os botões de cada medida fique com um certo espaço do outro*/
+    margin: 10px 100px 0 100px;
+}
+
+.comprimento{
+    background: #38BDF8;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer; /*faz com que mouse mude o cursor ao passar pelo botão*/
+    border: none; /*remove a borda padrão dos botões criados pelo HTML*/
+}
+
+.peso{
+    background:#34D399;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.volume{
+    background: #A78BFA;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.temperatura{
+    background: #FB923C;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.tempo{
+    background: #FBBF24;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.moldura, .moldura2{
+    border: solid 2px;
+    margin: 10px 50px 10px 50px;
+    border-radius: 10px;
+    color: #243353; /*mudar depois*/
+}
+
+
+.numero{
+    text-align: center;
+    border-radius: 5px;
+    height: auto;
+    background:#1E293B;
+    width: 200px;
+}
+
+.container, .DivComprimento, .DivPeso, .DivVolume, .DivTemperatura, .DivTempo{ 
+    display: none;/*desfaz o display flex que estava sendo usado até então*/
+    margin: 100px 300px 100px 300px;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap:45px;/*garante espaço entre os elementos*/
+    font-size: 20px
+}
+
+.aba-ativa{
+    display: flex !important; /*força a aplicação do display flex novamente, com prioridade*/
+}
+
+.resultado{
+    text-align:center;
+    background: #243353;
+    border-radius: 10px;
+    margin: 10px 200px 10px 200px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.botao{
+    background:#243353;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    height: 40px; 
+    width: 120px;
+    border-radius: 10px;
+    transition: transform 0.1s;/*faz com que botão tenha essa transição no tempo estipulado*/
+    display: block;
+    margin: 10px 110px 10px auto; 
+}
+.botao:hover {
+    transform: scale(1.05); /*junto com o transition, faz com que o botão cresça um pouco quando o mouse passa por cima*/
+}
+    
+footer{
+    background: #243353; 
+    margin: 10px 0 0 0;
+    padding: 10px;
+    text-align: left;
+    color: #F8FAFC;
+}
+
+a:link {
+  color: #8592bd;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8592bd;
+}
+
+a:hover {
+  color: #F8FAFC; 
+  text-decoration: none; 
+  cursor: pointer; 
+}
