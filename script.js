@@ -62,19 +62,19 @@ botVolume.addEventListener("click", function(){
 botTemperatura.addEventListener("click", function(){
     esconderAbas();
     divTemperatura.classList.add("aba-ativa");
-    moldura.style.color = "#FB923C";
-    moldura2.style.color = "#FB923C";
-    resultado.style.background = "#FB923C";
-    botConverter.style.background = "#FB923C";
+    moldura.style.color = "#d32020";
+    moldura2.style.color = "#d32020";
+    resultado.style.background = "#d32020";
+    botConverter.style.background = "#d32020";
 })
 
 botTempo.addEventListener("click", function(){
     esconderAbas();
     divTempo.classList.add("aba-ativa");
-    moldura.style.color = "#FBBF24";
-    moldura2.style.color = "#FBBF24";
-    resultado.style.background = "#FBBF24";
-    botConverter.style.background = "#FBBF24";
+    moldura.style.color = "#dbd02f";
+    moldura2.style.color = "#dbd02f";
+    resultado.style.background = "#dbd02f";
+    botConverter.style.background = "#dbd02f";
 })
 
 botConverter.addEventListener("click",function(){
